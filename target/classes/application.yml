@@ -1,0 +1,34 @@
+spring:
+  cache:
+    type: redis
+  application:
+    name: redis  
+  redis:
+    cluster:
+      nodes:
+      - 172.20.0.2:7000
+      - 172.20.0.3:7001
+      - 172.20.0.4:7002
+      max-redirects: 2 
+     # time-to-live: 60000
+     # cache-null-values: true
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: 123456
+    hikari:
+      connectionTimeout: 120000
+      idleTimeout: 200000
+      maxLifetime: 600000
+      maximumPoolSize: 5
+      minimumIdle: 2
+      schema: customers
+      
+  jpa:
+    hibernate:
+      ddl-auto: update
+      naming:
+        implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyHbmImpl
+        physical-strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy
+    show-sql: true
