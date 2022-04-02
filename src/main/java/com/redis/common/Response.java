@@ -1,9 +1,9 @@
-package com.example.redis.cache.common;
+package com.redis.common;
 
 import java.io.Serializable;
 import java.util.HashMap;
 
-import com.example.redis.cache.constant.ReturnCode;
+import com.redis.constant.ReturnCode;
 
 import lombok.Getter;
 

@@ -1,4 +1,4 @@
-package com.example.redis.cache.model;
+package com.redis.model;
 
 import java.io.Serializable;
 

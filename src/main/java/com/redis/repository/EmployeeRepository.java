@@ -1,6 +1,6 @@
-package com.example.redis.cache.repository;
+package com.redis.repository;
 
-import com.example.redis.cache.model.Customer;
+import com.redis.model.Customer;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

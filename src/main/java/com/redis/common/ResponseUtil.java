@@ -1,6 +1,6 @@
-package com.example.redis.cache.common;
+package com.redis.common;
 
-import com.example.redis.cache.constant.ReturnCode;
+import com.redis.constant.ReturnCode;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

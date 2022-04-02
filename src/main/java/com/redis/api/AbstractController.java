@@ -1,10 +1,10 @@
-package com.example.redis.cache.api;
+package com.redis.api;
 
 import java.util.Locale;
 
 import javax.annotation.Resource;
 
-import com.example.redis.cache.common.ResponseUtil;
+import com.redis.common.ResponseUtil;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

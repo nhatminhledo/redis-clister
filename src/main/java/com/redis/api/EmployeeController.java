@@ -1,11 +1,11 @@
-package com.example.redis.cache.api;
+package com.redis.api;
 
 
-import com.example.redis.cache.ResouceNotFoundException;
-import com.example.redis.cache.common.Response;
-import com.example.redis.cache.constant.RestURIConstant;
-import com.example.redis.cache.model.Customer;
-import com.example.redis.cache.repository.EmployeeRepository;
+import com.redis.ResouceNotFoundException;
+import com.redis.common.Response;
+import com.redis.constant.RestURIConstant;
+import com.redis.model.Customer;
+import com.redis.repository.EmployeeRepository;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheEvict;

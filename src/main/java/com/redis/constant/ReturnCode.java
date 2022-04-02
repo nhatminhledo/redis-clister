@@ -1,4 +1,4 @@
-package com.example.redis.cache.constant;
+package com.redis.constant;
 
 public enum ReturnCode {
 
