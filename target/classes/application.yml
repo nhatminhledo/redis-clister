@@ -10,7 +10,7 @@ spring:
       - 172.20.0.3:7001
       - 172.20.0.4:7002
       max-redirects: 2 
-     # time-to-live: 60000
+     #time-to-live: 60000
      # cache-null-values: true
 
   datasource:
