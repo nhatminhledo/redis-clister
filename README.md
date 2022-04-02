@@ -1,1 +1,1 @@
-# redis-clister
+# redis-cluster
